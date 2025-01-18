@@ -41,7 +41,7 @@ function ResidentCard({url}) {
 
         <span className='card__info-item'>
           <span className='card__info-label'> Episodes where apears </span>
-          {resident?.episode?.length}{resident?.episode?.length === 1 ?'Episode' : 'Episodes'}
+          {resident?.episode?.length}{resident?.episode?.length === 1 ?' Episode' : ' Episodes'}
          
         </span>
        
