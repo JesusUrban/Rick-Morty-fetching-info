@@ -12,8 +12,9 @@ function ResidentCard({url}) {
     },[url])
 
     const status = resident?.status.toLowerCase()
-    const statusIcon = status === 'alive' ? '🔵' : status === 'dead' ? '🔴' : '⚫'
+    const statusIcon = status === 'alive' ? '😀' : status === 'dead' ? '💀' : '🤔'
 
+  
 
     return (
     <div className='card'>
